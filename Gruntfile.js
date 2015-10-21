@@ -12,7 +12,8 @@ module.exports = function(grunt) {
             },
             angular: {
                 src: [
-                    './bower_components/angular/angular.js'
+                    './bower_components/angular/angular.js',
+                    './bower_components/angular-bootstrap/ui-bootstrap.js'
                 ],
                 dest: './public/assets/javascripts/lib/angular-bundle.js'
             },
