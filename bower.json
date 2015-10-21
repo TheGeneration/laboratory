@@ -1,0 +1,22 @@
+{
+  "name": "laboratory",
+  "description": "Project for people at The Generation to learn some node",
+  "main": "app.js",
+  "authors": [
+    "The Generation AB"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TheGeneration/laboratory",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7"
+  }
+}
