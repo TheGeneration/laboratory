@@ -17,6 +17,12 @@ module.exports = function(grunt) {
                 ],
                 dest: './public/assets/javascripts/lib/angular-bundle.js'
             },
+            parallax: {
+                src: [
+                    './bower_components/parallax/deploy/parallax.js'
+                ],
+                dest: './public/assets/javascripts/lib/parallax.js'
+            }
         },
         sass: {
             dist: {

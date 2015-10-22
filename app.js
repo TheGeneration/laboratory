@@ -10,6 +10,10 @@ app.get('/', function (req, res) {
     res.render('index');
 });
 
+app.get('/parallax', function (req, res) {
+    res.render('parallax');
+});
+
 var port = 8080;
 
 var server = app.listen(port, function () {

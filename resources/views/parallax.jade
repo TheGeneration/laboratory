@@ -1,0 +1,18 @@
+extends ./includes/layout.jade
+
+block head
+    script(src="assets/javascripts/lib/parallax.js")
+
+block title
+    title Parallax
+
+block content
+    ul(id="scene", style="width: 200px; margin: 0 auto; margin-top: 200px;")
+        li(class="layer", data-depth="0.00", style="width: 200px; height: 200px; background-color: #000; opacity: 0.1;")
+        li(class="layer", data-depth="0.25", style="width: 200px; height: 200px; background-color: #000; opacity: 0.1;")
+        li(class="layer", data-depth="0.50", style="width: 200px; height: 200px; background-color: #000; opacity: 0.1;")
+        li(class="layer", data-depth="0.75", style="width: 200px; height: 200px; background-color: #000; opacity: 0.1;")
+        li(class="layer", data-depth="1.00", style="width: 200px; height: 200px; background-color: #000; opacity: 0.1;")
+
+        script.
+            new Parallax(document.getElementById("scene"));
